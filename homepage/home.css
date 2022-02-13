@@ -22,7 +22,7 @@ section{
     padding: 2rem 9%;
 }
 header{
-  position: fixed;
+  position: relative;
   top: 0; left: 0; right: 0;
   background: white;  
   z-index: 1000;
@@ -132,7 +132,18 @@ opacity: 1;
     padding: .5rem 0;
 }
 
-
+.qoute{
+    margin-top:50px ;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    color:#0093d7;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 35px;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -249,3 +260,8 @@ header .navbar a:hover{
         font-size:55%;
     }
 }
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }

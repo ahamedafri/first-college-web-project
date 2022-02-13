@@ -22,7 +22,7 @@ section{
     padding: 2rem 9%;
 }
 header{
-  position: fixed;
+  position: relative;
   top: 0; left: 0; right: 0;
   background: white;  
   z-index: 1000;

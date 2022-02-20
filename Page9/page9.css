@@ -92,9 +92,75 @@ opacity: 1;
     display: none;
 }
 
+p{
+
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+
+}
 
 
 
+body {
+    background-image: url("http://www.pngmagic.com/product_images/light-blue-color-solid-color-background.jpg");
+     
+             background-color: #e6ebef;
+             
+   
+      font-family: Lora, serif;
+      font-size: 16px;  
+    
+     }
+    
+    h1 {
+    
+      border: 2px solid Tomato;
+      color: SaddleBrown;
+      text-align: center;
+      font-size: 25px;
+    }
+    
+    p {
+      font-family: verdana;
+      font-size: 15px;
+    }
+    
+    #para1
+    {
+      text-align: center;
+      color: DarkSlateGrey;
+    }
+    #p1
+    {
+      text-align: center;
+      color: DarkSlateGrey;
+    }
+    #p2
+    {
+      text-align: center;
+      color: DarkSlateGrey;
+    }#p3
+    {
+      text-align: center;
+      color: DarkSlateGrey;
+    }#p4
+    {
+      text-align: center;
+      color: DarkSlateGrey;
+    }
+    #p5
+    {
+      text-align: center;
+      color: DarkSlateGrey;
+    }
+    div {
+      background-color: lightgrey;
+      width: 300px;
+      border: 8px solid green;
+      padding: 40px;
+      margin: 20px;
+    }
 
 
 

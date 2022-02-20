@@ -22,7 +22,7 @@ section{
     padding: 2rem 9%;
 }
 header{
-  position: relative;
+  position: fixed;
   top: 0; left: 0; right: 0;
   background: white;  
   z-index: 1000;
@@ -92,7 +92,9 @@ opacity: 1;
     display: none;
 }
 
-/* hero image*/
+
+
+
 
 
 

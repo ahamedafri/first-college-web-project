@@ -188,7 +188,49 @@ opacity: 1;
   from {opacity: .4} 
   to {opacity: 1}
 }
+.row {
+    display: flex;
+    align-items: center;
+    
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .content-col {
+     width: 50%;
+ }
+ .image-col {
+    width: 50%;
+}
+.target .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.gallery img {
+  max-width: 250px;
+  padding: 10px;
+  
 
+    
+}
+.content-col h1 {
+    font-size: 7vmin;
+    color: #0093d7;
+}
+.content-col p {
+    padding: 0%;
+    margin: 30px auto;
+    color: rgb(114, 132, 136);
+    font-size: medium;
+}
+.row .col .btn {
+    margin-top: 20px;
+    border-radius: 30px;
+}
 
 
 /* media queries*/

@@ -128,8 +128,9 @@ body {
     
     #para1
     {
-      text-align: center;
+      text-align:justify;
       color: DarkSlateGrey;
+
     }
     #p1
     {
@@ -163,6 +164,7 @@ body {
     }
 
     
+/*section */
 
 
 

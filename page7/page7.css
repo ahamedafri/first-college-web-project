@@ -276,6 +276,50 @@ opacity: 1;
     border-radius: 30px;
     margin-top: 20px;
 }
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 4vmin;
+    color: #0093d7;
+}
+.row .col img {
+    width: 50%;
+    
+}
+h4 {
+    text-align: center;
+    font-size: 3vmin;
+    color: rgb(114, 132, 136);
+    
+    
+}
+
+
+p {
+    color: rgb(114, 132, 136);
+    padding: 0 40px;
+    margin-top: 12px;
+   
+}
+
+.row .col .btn {
+    margin-top: 20px;
+    border-radius: 30px;
+    
+}
+.rownew .colnew p{
+    margin-left: 230px;
+}
+.rownew .colnew img {
+    width: 40%;
+    margin-left: 372px;
+}
+.rownew .colnew .btn {
+
+    margin-top: 20px;
+    border-radius: 30px;
+    margin-left: 540px;
+}
 
 
 /* media queries*/

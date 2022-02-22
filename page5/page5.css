@@ -272,25 +272,30 @@ h1 {
   }
 
 body {
-    background-color:rgb(165, 163, 163);
+    background-color:rgb(255, 255, 255);
 }
 
-h4 {
+h3 {
   font-family: Arial ;
-  font-style:italic ;
+ 
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 p {
-  font-size: 40px;
+  font-size: 35px;
 
 }
 
-h4 {
+h3 {
 
-  font-size: 20px;
+  font-size: 15px;
 }
+
+h3 {
+  font-family: Arial;
+ 
+
 

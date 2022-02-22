@@ -163,7 +163,10 @@ body {
       margin: 20px;
     }
 
-    
+    a.one:link {color:#ff0000;}
+a.one:visited {color:#0000ff;}
+a.one:hover {color:#cc2a45;}
+a.one:hover {font-size:150%;}
 /*section */
 
 

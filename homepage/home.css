@@ -149,19 +149,23 @@ opacity: 1;
     margin-bottom: 100px ;
 }
 
-.home-header h1{
+.home-h1 {
     margin-top:50px ;
     margin-right: 50px;
     margin-bottom: 100px;
     margin-left: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 200px;
     color:rgb(0, 147, 215);
     font-size: 20px;
     font-weight: bolder;
     line-height: 35px;
-    text-decoration: underline;
+   
+
 }
+.underline {
+   
+  }
 
 /* Slideshow container */
 .slideshow-container {

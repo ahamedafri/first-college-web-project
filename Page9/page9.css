@@ -130,17 +130,24 @@ body {
     {
       text-align:justify;
       color: DarkSlateGrey;
+    
+     
 
     }
     #p1
     {
       text-align: center;
       color: DarkSlateGrey;
+      padding: auto;
+      margin: 0 40px;
     }
     #p2
     {
       text-align: center;
+      
       color: DarkSlateGrey;
+      padding-bottom: 20px;
+      margin:0 20px;
     }#p3
     {
       text-align: center;
@@ -155,13 +162,34 @@ body {
       text-align: center;
       color: DarkSlateGrey;
     }
-    .one{
+  .one .pa{
       background-color: lightgrey;
       width: 300px;
       border: 6px solid rgb(5, 39, 5);
       padding: 40px;
       margin: 20px;
     }
+  
+    .one .round {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      text-align: center ;
+      font-size: 30px;
+      float: left;
+      font-weight: bold;
+        
+
+    
+  }
+
+ #p2,#p3,#p4,#p6 {
+    text-align: justify;
+   
+}
+    
+ 
+    
 
     a.one:link {color:#ff0000;}
 a.one:visited {color:#0000ff;}
@@ -330,7 +358,7 @@ div.desc {
 
 a.two:link {color:#ff0000;}
 a.two:visited {color:#0000ff;}
-a.two:hover {color:#551414;}
+a.two:hover {color:#4db81c;}
 a.two:hover {font-size:170%;}
 
 /* media queries*/

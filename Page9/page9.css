@@ -155,18 +155,71 @@ body {
       text-align: center;
       color: DarkSlateGrey;
     }
-    div {
+    .one{
       background-color: lightgrey;
       width: 300px;
-      border: 8px solid green;
+      border: 6px solid rgb(5, 39, 5);
       padding: 40px;
       margin: 20px;
     }
 
-    
+    a.one:link {color:#ff0000;}
+a.one:visited {color:#0000ff;}
+a.one:hover {color:#cc2a45;}
+a.one:hover {font-size:150%;}
 /*section */
 
+div.gallery {
+  border: 1px solid #ccc;
+}
 
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a.two:link {color:#ff0000;}
+a.two:visited {color:#0000ff;}
+a.two:hover {color:#551414;}
+a.two:hover {font-size:170%;}
 
 /* media queries*/
    

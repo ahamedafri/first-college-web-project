@@ -10,4 +10,3 @@ menu.addEventListener('click', () =>{
 function jsredir() {
     window.location.href = "C:\Users\AFRI\web-project\homepage\index.html";
   }
-  

@@ -6,4 +6,8 @@ menu.addEventListener('click', () =>{
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 });
-© 2022 G
+
+function jsredir() {
+    window.location.href = "C:\Users\AFRI\web-project\homepage\index.html";
+  }
+  

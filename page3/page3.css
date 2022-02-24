@@ -427,81 +427,84 @@ hr{
   background-color: #04AA6D;
 }
 
-/*footer section */
-
-.f-section{
-  position:relative;
-  width: 100%;
-  background:#3586ff;
-  min-height: 100px;
-  padding: 20px 50px;
-  align-items: center;
-  flex-direction: column;
+/* keyword section */
+/* footer section */
+.container {
+  max-width: 1170px;
+  
+  margin: auto;
 }
-
-.f-section .social_icon,
-.f-section .menu
-{
-  position: relative;
+.minirow {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
   flex-wrap: wrap;
+  
 }
-
-.f-section .social_icon li,
-.f-section .menu li
-{
+ul {
   list-style: none;
 }
 
-.f-section .social_icon li a
-{
-  font-size: 2em;
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
+.footer {
+  background-color: #24262b;
 }
-
-.f-section .social_icon li a:hover
-{
-  transform: translateY(-10px);
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
 }
-
-.f-section .menu li a
-{
-  font-size: 1.2em;
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
-  text-decoration: none;
-  opacity: 0.75;
+.footer-col h5 {
+  font-size: 18px;
+  color: #0093d7;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
 }
-.f-section .menu li a:hover{
-  opacity: 1;
+.footer-col h5::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: orange;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
 }
-.f-section p
-{
-  color: black;
-  text-align: center;
-  margin-top: 15px; 
+.footer-col ul li:not(:last-child){
   margin-bottom: 10px;
-  font-size:1.1em ;
 }
-
-.f-section .wave
-{
-position: absolute;
-top: -100px;
-left: 0;
-width: 100%;
-height: 100px;
-background:url(../images/wave.png);
-background-size: 1000px 100px;
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: 0.3s ease;
 }
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px ;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
 
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+/* footer section*/
+
+<<<<<<< HEAD
 .f-section .wave#wave1
 {
   z-index: 1000;
@@ -592,3 +595,5 @@ header .navbar a:hover{
 }
 
 }
+=======
+>>>>>>> 3321a13490b220ef38cff10eb47d53f226b0edc2

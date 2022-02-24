@@ -22,7 +22,7 @@ section{
     padding: 2rem 9%;
 }
 header{
-  position: fixed;
+  position: relative;
   top: 0; left: 0; right: 0;
   background: white;  
   z-index: 1000;
@@ -83,6 +83,12 @@ opacity: 1;
     position:relative;
 
 }
+
+.login{
+    font-size: 30px;
+    color:#FF8000;
+   
+ }
 .btn{
     display:inline-block;
     margin-top:1rem;

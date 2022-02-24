@@ -32,6 +32,13 @@ header{
   padding:2rem 9%;
 }
 
+
+.login{
+  font-size: 30px;
+  color:#FF8000;
+ 
+}
+
 header .logo {
     font-size: 3.5rem;
     font-weight: bolder;

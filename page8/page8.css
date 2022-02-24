@@ -53,6 +53,13 @@ header .navbar a{
     padding: 6px 0;
 }
 
+
+.login{
+    font-size: 30px;
+    color:#FF8000;
+   
+ }
+
 header .navbar a:before{
     content:'';
     position: absolute;

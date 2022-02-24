@@ -76,12 +76,12 @@ opacity: 1;
 #button1{
     background:#FF8000;
     color: white;
-    padding: 10px ;
-    border-radius: 0;
+    padding: 10px  ;
+    border-radius: 5px;
     font-size: 1.25rem;
     font-weight: 600;
     position:relative;
-
+    
 }
 .btn{
     display:inline-block;
@@ -92,6 +92,7 @@ opacity: 1;
     border:.2rem solid var(--orange);
     font-size: 1.7rem;
     cursor:pointer;
+    border-radius: 5px;
 
 }
 
@@ -104,6 +105,14 @@ opacity: 1;
     cursor: pointer ;
     display: none;
 }
+
+
+.login{
+   font-size: 30px;
+   color:#FF8000;
+  
+}
+
 /*   home   */
 .home {
     display:flex ;
@@ -163,9 +172,7 @@ opacity: 1;
    
 
 }
-.underline {
-   
-  }
+
 
 /* Slideshow container */
 .slideshow-container {
